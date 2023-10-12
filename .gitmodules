@@ -1,0 +1,6 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/starbeamjs/dev-core.git
+[submodule "eslint-plugin"]
+	path = eslint-plugin
+	url = https://github.com/starbeamjs/eslint-plugin.git

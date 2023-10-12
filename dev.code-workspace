@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "path": "core"
+    },
+    {
+      "path": "eslint-plugin"
+    },
+    {
+      "path": "compile"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "eslint-plugin/node_modules/typescript/lib",
+    "explorer.sortOrder": "foldersNestsFiles",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "eslint.validate": ["javascript", "typescript", "json", "jsonc"],
+
+    "[ignore]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
+
+    "typescript.preferences.importModuleSpecifier": "project-relative"
+  },
+  "extensions": {
+    "recommendations": [
+      "rohit-gohri.format-code-action",
+      "dbaeumer.vscode-eslint",
+      "editorconfig.editorconfig",
+      "tintinweb.vscode-inline-bookmarks",
+      "esbenp.prettier-vscode",
+      "stkb.rewrap",
+      "foxundermoon.shell-format"
+    ]
+  }
+}
